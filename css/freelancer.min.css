@@ -23,7 +23,8 @@ a:active,
 a:focus,
 a:hover {
     color: #18BC9C;
-    outline: 0
+    outline: 0;
+    cursor: -webkit-grab;
 }
 
 h1,
@@ -570,4 +571,14 @@ fieldset[disabled] .btn-success:hover {
 .portfolio-modal .modal-backdrop {
     opacity: 0;
     display: none
+}
+
+.topic {
+    float: left;
+    font-size: x-large;
+}
+
+.paraText {
+    float: left;
+    text-align: -webkit-auto;
 }
